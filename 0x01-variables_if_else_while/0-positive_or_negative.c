@@ -2,11 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - Entry point */
- /**
+/**
+ * main - Entry point
  * Description: This program assigns random numbers to n
  * print whether the number stored in the variable n is
- * positive or negative
+ * positive or negative.
+ *
  * Return: Always (0) Success
  */
 int main(void)
