@@ -6,12 +6,12 @@
  *
  * @n - number to be printed
  *
- *Return: 0
+ * Return: 0
  *
  */
 void print_times_table(int n)
 {
-	int x = 0, y, z;
+	int x = 0, n, y, z;
 
 	if (n > 15 || n < 0)
 		return;
