@@ -11,7 +11,7 @@
  */
 void print_times_table(int n)
 {
-	int x = 0, n, y, z;
+	int x = 0, y, z;
 
 	if (n > 15 || n < 0)
 		return;
