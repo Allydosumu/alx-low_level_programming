@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: This program prints all possible 
+ * Description: This program prints all possible
  * different combinations of three digits.
  *
  * Return: Always (0) Success
