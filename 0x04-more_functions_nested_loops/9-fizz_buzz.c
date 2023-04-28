@@ -7,7 +7,7 @@
  * Description: Prints Fizz for multiples of 3,
  * Buzz for multiples of 5 and FizzBuzz for multiples of 15
  *
- * Return: 0
+ * Return: void
  */
 int main(void)
 {
