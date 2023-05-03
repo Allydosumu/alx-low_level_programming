@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * _puts - This program writes a function that prints
- * a new line to stdout.
+ * a string followed by a new line to stdout.
  *
  * @str: char array string type
  *
  * Return: 0
  */
-void _puts(cha *str)
+void _puts(char *str)
 {
 	int l;
 
@@ -16,4 +16,4 @@ void _puts(cha *str)
 		_putchar(str[l]);
 	}
 	_putchar('\n');
-]
+}
