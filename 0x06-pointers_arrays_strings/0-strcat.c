@@ -10,14 +10,20 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int l, m, n;
+	int count = 0, count2 = 0;
 
-	l = 0, m = 0;
-	while (dest[l] != '\0')
-		l++;
-	while (src[m] != '\0')
-		m++;
-	for (n = 0; n <= m; n++, l++)
-		dest[l] = src[m];
+	while (*(dest + count) != '\0')
+	{
+		count++;
+	}
+
+	while (count2 >= 0)
+	{
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')
+			break;
+		count++;
+		count2++;
+	}
 	return (dest);
 }
