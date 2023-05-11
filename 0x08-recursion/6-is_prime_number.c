@@ -12,7 +12,7 @@ int find_prime_number(int n, int l)
 	{
 		return (1);
 	}
-	else if ( n % l == 0)
+	else if (n % l == 0)
 	{
 		return (0);
 	}
