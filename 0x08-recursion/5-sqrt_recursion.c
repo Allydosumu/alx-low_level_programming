@@ -24,7 +24,7 @@ int find_root_number(int n, int root_number)
  * _sqrt_recursion - This program writes the function that
  * returns the natural square root of a number
  * @n: input
- * @root_number: test number
+ *
  * Return: natural square root
  */
 int _sqrt_recursion(int n)
