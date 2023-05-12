@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	double a, b, multi;
+	int a, b, multi;
 
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 	if (argc > 1)
 	{
-		printf("%.2lf\n", multi);
+		printf("%d\n", multi);
 		return (0);
 	}
 	else
