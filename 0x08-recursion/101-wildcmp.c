@@ -40,6 +40,7 @@ int compare_string(char *s1, char *s2)
 /**
  * wildcmp - This function compares 2 strings
  * @s1: string 1
+ * @s2: string 2
  * Return: 1 if string is identical, 0 is not
  */
 int wildcmp(char *s1, char *s2)
