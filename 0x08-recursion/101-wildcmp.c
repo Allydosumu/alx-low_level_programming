@@ -12,7 +12,7 @@ int _strlen(char *s1, char *s2)
 	if (*s1 == '\0' && *s2 == '\0')
 	{
 		return (0);
-	}	
+	}
 	else
 	{
 		return (1 + _strlen(s1 + 1, s2 + 1));
@@ -23,8 +23,6 @@ int _strlen(char *s1, char *s2)
  *
  * @s1: string 1
  * @s2: string 2
- * @n1: input
- * @n2: input
  * Return: compared strings
  */
 int compare_string(char *s1, char *s2)
@@ -46,9 +44,8 @@ int compare_string(char *s1, char *s2)
  */
 int wildcmp(char *s1, char *s2)
 {
-	
 	if (s1 >= s2)
-	{	
+	{
 		return (1 + wildcmp(s1, s2));
 	}
 	else
