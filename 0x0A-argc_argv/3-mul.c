@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	b = atoi(argv[2]);
 	multi = a * b;
 
-	if (argc > 2)
+	if (argc != 3)
 	{
 		printf("%d\n", multi);
 		return (0);
