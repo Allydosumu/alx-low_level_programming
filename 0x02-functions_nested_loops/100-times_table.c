@@ -4,7 +4,7 @@
  * print_times_table - This program prints the
  * n times table, starting with 0
  *
- * @n - integer to be printed
+ * @n: integer to be printed
  *
  * Return: 0
  *
