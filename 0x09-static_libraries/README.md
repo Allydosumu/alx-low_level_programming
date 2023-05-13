@@ -1,1 +1,1 @@
-Libraries speak in volumes
+Static Libraries
