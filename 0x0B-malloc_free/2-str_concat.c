@@ -18,7 +18,7 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 
-	while (*(s1 + l)
+	while (*(s1 + l))
 		i++, l++;
 	while (*(s2 + m))
 		combine_i++, m++;
