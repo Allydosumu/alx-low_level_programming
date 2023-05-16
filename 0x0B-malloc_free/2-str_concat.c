@@ -30,10 +30,10 @@ char *str_concat(char *s1, char *s2)
 		combine_str[combine_i++] = s1[i];
 
 	for (i = 0; s2[i]; i++)
-		combine_str[combine_i++ = s1[i];
+		combine_str[combine_i++] = s1[i];
 
 	for (i = 0; s2[i]; i++)
-		combine_str[combine_i++ = s2[i];
+		combine_str[combine_i++] = s2[i];
 
 	return (combine_str);
 }
