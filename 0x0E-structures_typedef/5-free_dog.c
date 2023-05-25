@@ -1,5 +1,5 @@
-#include <stdlib>
-#include "main.h"
+#include <stdlib.h>
+#include "dog.h"
 /**
  * free_dog - This functions frees the dog
  * @d: The dog being freed
