@@ -17,14 +17,14 @@ int _strlen(char *str)
 }
 
 /**
- * strcpy -  This function copies the string pointed
+ * _strcpy -  This function copies the string pointed
  * to by src to the buffer pointed to by dest
  * @dest: The buffer storing the string copy
  * @src: The source string
  *
  * Return: The pointer to dest.
  */
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
