@@ -71,7 +71,7 @@ void print_all(const char * const format, ...)
 	va_list arg;
 	int i = 0, j = 0;
 	char *separator = "";
-	
+
 	datatype choice[] = {
 		{'c', print_char},
 		{'i', print_int},
